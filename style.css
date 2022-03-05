@@ -315,6 +315,11 @@ footer {
         background-color: grey;
     } 
 
+    .cta-btn, .cta-sec-btn {
+        width: 50%;
+        padding: 15px 25px;
+    }
+
     .hero {
         display: flex;
         flex-direction: column;
@@ -397,8 +402,28 @@ footer {
         width: 50%;
     }
 
+    .cta-btn, .cta-sec-btn {
+        width: 100%;
+    }
+
+    .text-box-top {
+        margin-bottom: 40px;
+    }
+
+    .hero {
+        grid-gap: unset;
+    }
+
     .years-description h2 {
         font-size: 2.5rem;
+    }
+
+    .cards {
+        gap: unset;
+    }
+
+    .card {
+        margin-bottom: 20px;
     }
 
     .footer-links {
